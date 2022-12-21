@@ -3,5 +3,5 @@
   "PORT": 3306,
   "USER": "root",
   "PASSWORD": "",
-  "DBNAME": "shug"
+  "DBNAME": "stresser"
 }

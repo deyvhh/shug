@@ -8,9 +8,8 @@
     <title>elo</title>
 </head>
 <body>
-    siemano
-    <?php
-        echo getVar("test");
-    ?>
+    <div id="root"></div>
+
+    <script type="module" src="../front/src/index.js"></script>
 </body>
 </html>

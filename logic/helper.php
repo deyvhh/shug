@@ -20,4 +20,10 @@ class Functions {
     static function redirect($path): void {
         header("Location: ".$path);
     }
+
+    static function JSON($data): void
+    {
+        header('Content-Type: application/json');
+        echo json_encode($data);
+    }
 }
